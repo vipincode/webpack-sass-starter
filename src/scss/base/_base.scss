@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: $font-stack--primary;
+	font-size: $base-font--size;
+	line-height: $base--line/$base-font--size;
+	font-weight: $font-weight--sm;
+}
+
+
+h1,h2,h3,h4,h5,h6, p {
+	margin: 0;
+}
+
+p {
+	font-weight: $font-weight--xs;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+img {
+	max-width: 100%;
+}
+
+

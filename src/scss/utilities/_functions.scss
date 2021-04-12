@@ -1,0 +1,28 @@
+
+// Importing Google Fonts
+
+@if variable-exist(font-google-Sans) {
+	@import url($font-google-Sans);
+}
+
+// px to em 
+
+@function em($target, $context: $base-font--size) {
+	@return ($target / $context) * 1em;
+}
+
+
+
+// px to percentage
+
+@function px-to-pc($target, $context: $max-width) {
+	@return ($target/$context) * 100%;
+}
+
+// Creat perline count
+
+@function per-line($item) {
+	$g-pct: px-to-pc($gutter) * 2;
+	$g-total: $item * $g-pct;
+	@return (100% / $item) - $g-total;
+}
