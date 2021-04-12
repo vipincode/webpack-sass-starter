@@ -1,0 +1,32 @@
+// ==========================================================
+//         USEFULL HELPERS 
+// ==========================================================
+
+%center {
+    text-align: center;
+}
+
+%auto {
+    margin: 0 auto;
+}
+
+%small-text__14 {
+    font-size: em(14px);
+}
+
+%small-text__16 {
+    font-size: em(14px);
+}
+
+%text-upper {
+    text-transform: uppercase;
+}
+
+%text-capitalize {
+    text-transform: capitalize;
+}
+
+%top {
+    position: inherit;
+    z-index: 2;
+}

@@ -4,9 +4,9 @@
 
 body {
 	font-family: $font-stack--primary;
-	font-size: $base-font--size;
+	font-size: em(18px);
 	line-height: $base--line/$base-font--size;
-	font-weight: $font-weight--sm;
+	font-weight: $font-weight--xs;
 }
 
 

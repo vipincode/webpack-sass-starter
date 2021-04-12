@@ -1,42 +1,49 @@
-
-
 // Google Fonts
-
-$font-google-Sans    : 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800';
+$font-google-Sans    : 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800';
 $font-stack--primary : 'Open Sans', sans-serif;
 // Font Weght
-
 $font-weight--xs     : 300;
 $font-weight--sm     : 400;
 $font-weight--md     : 600;
-$font-weight--lg     : 800; 
-
+$font-weight--lg     : 700; 
+$font-weight--xl     : 800; 
 
 // colors
-
-$bg-color            : #F8EFBA;
-$bg-color--light     : lighten(#F8EFBA, 11%);
-$bg-color--light-x   : lighten(#F8EFBA, 9%);
-$base-color          : #eb3b5a;
-$accent              : #555555;
+$color--primary      : #fe6705;
+$color--seconary     : #f32853;
 $white               : #ffffff;
-$grey                : #d1d8e0;
-$black               : #2d3436;
+$grey                : #b2bec3;
+$black               : #0b0b0b;
+$light--black        : #1e272e;
 
 // Color Maps
-
 $ui-colors   : (
-	default          : #2bcbba,
-	info             : $white,
+	default          : #1e272e,
+	info             : #74b9ff,
 	warning          : #fd9644,
-	success          : #26de81,
+	success          : #00b894,
 	error            : #fc5c65
+);
+
+$colors     : (
+	grey: (
+		x-light   : lighten($grey, 20%),
+		light     : lighten($grey, 12%),
+		base      : $grey,
+		dark      : darken($grey, 12%),
+	),
+	black: (
+		x-light   : lighten($black, 20%),
+		light     : lighten($black, 12%),
+		base      : $black,
+		dark      : darken($black, 12%),
+	)
 );
 
 // Units
 
 $base-font--size     : 16px;
-$max-width           : 1200px;
+$max-width           : 1600px;
 $gutter              : 15px;
 $base--line          : 24px;
 $br-radius           : 4px;
@@ -57,4 +64,7 @@ $breakpoints     : (
 	'sm'         : 576px,
 	'md'         : 768px,
 	'lg'         : 992px,
+	'xl'         : 1200px,
+	'xxl'        : 1400px,
+	'xll'        : 1920px,
 );

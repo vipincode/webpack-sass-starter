@@ -1,0 +1,52 @@
+// ================================================
+//           HEADINGS
+// ================================================
+
+.primary--heading {
+    font-size: em(32px);
+    font-weight: $font-weight--lg;
+    margin-bottom: em(15px, 32px);
+    @include mq('md') {
+        font-size: em(38px);
+        margin-bottom: em(15px, 38px);
+    }
+    @include mq('lg') {
+        font-size: em(48px);
+        margin-bottom: em(15px, 48px);
+    }
+}
+
+.sec--heading {
+    font-size: em(26px);
+    font-weight: $font-weight--lg;
+    margin-bottom: em(15px, 26px);
+    @include mq('md') {
+        font-size: em(32px);
+        margin-bottom: em(15px, 32px);
+    }
+    @include mq('lg') {
+        font-size: em(38px);
+        margin-bottom: em(15px, 38px);
+    }
+}
+
+.ter--heading {
+    font-size: em(23px);
+    font-weight: $font-weight--md;
+    margin-bottom: em(15px, 23px);
+    @include mq('md') {
+        font-size: em(24px);
+        margin-bottom: em(15px, 24px);
+    }
+    @include mq('lg') {
+        font-size: em(28px);
+        margin-bottom: em(15px, 28px);
+    }
+}
+
+.text-accent {
+    font-size: em(17px);
+    @include mq('md') {
+        font-size: em(20px);
+    }
+}
